@@ -4,7 +4,7 @@
 use std::cmp;
 use std::num::Wrapping;
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct CONCISE {
     words: Option<Vec<Wrapping<i32>>>,
     last: i32,
